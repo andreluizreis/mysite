@@ -1,0 +1,24 @@
+
+body {
+    background: cornflowerblue;
+}
+
+h1 {
+    color: blue;
+    font-family: arial;
+    font-size: 300%;
+}
+
+p {
+    color: black;
+    font-family: verdana, courier;
+    font-size: 160%;
+}
+
+a {
+    color:blue;
+}
+a :hover {
+   background: white;
+   color: red; 
+}
