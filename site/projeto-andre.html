@@ -3,46 +3,61 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style-andre.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./style-andre.css">
     <title>Projetos</title>
 </head>
 
 <body>
     <!-- Nav Bar -->
-    <div class="topo">
-        <a class="topo" href="index-andre.html"> Principal </a> 
-        <a class="topo" href="contato-andre.html"> Contato </a> 
-        <a class="topo" href="projeto-andre.html"> Projetos </a>              
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="./index-andre.html"> Principal </a>
+            </div>
+            <div class="col-md-4">
+                <a href="./contato-andre.html"> Contato </a>
+            </div>
+            <div class="col-md-4">
+                <a href="./projeto-andre.html"> Projetos </a>
+            </div>
+        </div>
     </div>
     <!-- Content -->
-    <div class="projeto">
-        <table>
-            <tr>
-                <th>Id</th>
-                <th>Descrição</th>
-                <th>Material</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Apresentação</td>
-                <td><a href="">PPT</a></td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Storyboards</td>
-                <td><a href="">PDF</a></td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Mindmaps</td>
-                <td><a href="">PDF</a></td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Mockups</td>
-                <td><a href="">Link</a></td>
-            </tr>
-        </table>
+    <div class="container">
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Descrição</th>
+                        <th>Material</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Apresentação</td>
+                        <td><a href="">PPT</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Storyboards</td>
+                        <td><a href="">PDF</a></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Mindmaps</td>
+                        <td><a href="">PDF</a></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Mockups</td>
+                        <td><a href="">Link</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 </body>
 
