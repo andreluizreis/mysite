@@ -1,0 +1,81 @@
+
+body {    
+    margin: 0px;   
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+    font-family: arial;
+    font-size: 300%;
+}
+
+p {
+    color: black;
+    font-family: verdana, courier;
+    font-size: 160%;
+}
+
+a {
+    color:blue;
+}
+a :hover {
+   background: white;
+   color: red; 
+}
+
+table, td, th {
+    border: 3px solid beige;
+}
+
+table {
+    border-collapse: collapse;
+    width:50%;
+}
+
+th {
+    height: 60px;
+}
+
+tr, td {
+    height: 30px;
+    width: 30px;
+    padding: 20px;
+    text-align: center;
+    font-size: 130%;
+}
+
+/************** Topo ****************/
+
+.topo {
+    padding: 1% 2% 1% 2%;
+    background: cornflowerblue;   
+    text-align: center;      
+}
+
+a.topo {
+    margin: 1%;       
+    font-size: 180%;        
+}
+
+/************** Index ***************/
+.index {
+    padding: 2% 0% 2% 0%;
+    background: beige;    
+}
+
+.contato {
+    padding: 2% 0% 2% 0%;
+    background: beige;    
+}
+
+.projeto {
+    padding: 2% 0% 2% 0%;
+    background: beige;    
+}
+
+@media(min-width: 500px) {
+    body {
+        background-color:red;
+    }
+}
